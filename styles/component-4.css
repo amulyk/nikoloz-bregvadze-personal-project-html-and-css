@@ -1,0 +1,71 @@
+.offerWrap{
+    height:139px;
+    margin-top: 150px;
+    padding: 0 375px;
+    display: flex;
+    align-content: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shoppingCart{
+    height:90px;
+    width:90px;
+    border-radius: 70px;
+    background:#1abc9c;
+    margin-left: 31px;
+    margin-right: 39.1px;
+    display: flex;
+    justify-content:center;
+    align-items:center
+}
+
+
+.shoppingCart i{
+  color:white;
+  font-size: 27px;
+  height:27px;
+  line-height: 27px;
+}
+
+.offerDetails{
+    width: 750.92px;
+    margin-right: 18px;
+    margin-top: -6px;
+}
+
+.offerHeader{
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: bold;
+    color: #34495e;
+    margin-bottom: 8.9px;
+    /* line-height: 24px; */
+}
+
+.offerInfo{
+    font-family: Lato;
+    color: #a1b1bc;
+    letter-spacing: -0.63pt;
+}
+
+.offerButton{
+    margin-top: -5px;
+    height: 60px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-right: 47px;
+    border-radius: 10px;
+    background: #34495e;
+    color: white;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: normal;
+    box-shadow: 3px;
+    -webkit-box-shadow: 0px 3px 0px 0px rgba(44,62,80,1);
+    -moz-box-shadow: 0px 3px 0px 0px rgba(44,62,80,1);
+    box-shadow: 0px 3px 0px 0px rgba(44,62,80,1);
+}
