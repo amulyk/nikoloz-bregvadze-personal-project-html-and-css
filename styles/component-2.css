@@ -1,0 +1,167 @@
+
+.carouselWrap {
+    height: 796px;
+    background: #2c3e50
+}
+
+.leftCarouselButton,
+.rightCarouselButton {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 320px;
+
+    border: 1px solid white;
+    background: transparent;
+}
+
+.leftCarouselButton i,
+.rightCarouselButton i {
+    line-height: 24px;
+    height: 24px;
+    width: 100%;
+    text-align: center;
+    color: #2c3e50;
+
+}
+
+.leftCarouselButton {
+    margin-left: 68px;
+    /* position: absolute; */
+    margin-right: 218px
+}
+
+.leftCarouselButton i,
+.rightCarouselButton i {
+    color: white;
+}
+
+.mockup {
+    display: flex;
+    height: 742px;
+    width: 531px;
+    margin-top: 17px;
+
+}
+
+.carouselContent {
+    display: flex;
+}
+
+.carouselInfo {
+    height: 530.79px;
+    width: 576.21px;
+    margin-top: 117px;
+    margin-left: 107px;
+}
+
+
+.rightCarouselButton {
+    margin-left: 255px;
+}
+
+
+
+.leftCarouselButton:hover,
+.rightCarouselButton:hover {
+    background: white;
+    cursor: pointer;
+}
+
+.leftCarouselButton:hover i,
+.rightCarouselButton:hover i {
+    color: #2c3e50!important;
+}
+
+.carouselInfoHeader {
+    height: 178.67px;
+    width: 570px;
+}
+
+.productSlogan {
+    color: white;
+    font-family: "Lato";
+    line-height: 60px;
+    font-size: 36px;
+    font-weight: 300;
+    margin-top: -7px;
+    margin-bottom: -20px;
+}
+
+.productName {
+    margin-bottom: 23.5px
+}
+
+/* I couldn't click the fucking text so I exported it */
+.productName {
+    margin-left: -4px;
+}
+
+
+.carouselInfoText {
+    display: flex;
+    width: 570px;
+    color: white;
+    font-size: 18px;
+    font-family: "Lato";
+    line-height: 30px;
+    margin-bottom: 45px;
+    letter-spacing: -0.2pt;
+
+}
+
+.carouselInfoButtons div {
+    display: inline-block;
+    width: 160px;
+
+    height: 50px;
+    margin-right: 8px;
+    color: white;
+    font-size: 18px;
+    font-family: "Lato"
+}
+
+
+.carouselInfoButtons div:first-child {
+    background: #1d2c38;
+
+}
+
+.carouselInfoButtons div:last-child {
+    background: #1abc9c;
+    color: white;
+}
+
+.carouselInfoButtons div span {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigationDots {
+    margin: auto;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background: white;
+    border-radius: 10px;
+}
+
+.dot.active {
+    border: 1px white solid;
+    background: transparent;
+    border-radius: 10px;
+}
+
+

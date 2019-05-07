@@ -1,0 +1,129 @@
+
+nav {
+    /* width: 1170px; */
+    height: 112px;
+    background: #2c3e50
+}
+
+.navWrap {
+    margin: 0 375px;
+    display: flex;
+}
+
+.navLogoWrap {
+    display: flex;
+    height: 66px;
+    width: 190.09px;
+    margin-top: 25.5px;
+}
+
+
+.navLogoTextWrap,
+.navLogoImgWrap {
+    color: white;
+    font-family: "Lato";
+    display: inline-block;
+}
+
+.navLogoImgWrap {
+    margin-top: 14.5px;
+    margin-right: 20.1px;
+}
+
+.navLogoTextWrap {
+    margin-top: 5px;
+}
+
+.navLogoTextWrap span:first-child {
+    font-size: 23.8px;
+}
+
+.navLogoTextWrap span:nth-child(2),
+.navLogoTextWrap span:nth-child(3) {
+    font-size: 35.69px
+}
+
+.navLogoTextWrap span {
+    font-weight: bold;
+    line-height: 30.69px;
+}
+
+.navMenuWrap {
+    margin-left: 16.7px;
+    display: flex;
+
+    height: 76.71px;
+
+
+    width: 864px;
+    align-items: flex-end;
+}
+
+.navMenuButtonsWrap {
+    display: flex;
+    flex: 1;
+    height: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navMenuButton {
+    width: 766px;
+    font-size: 15px;
+    line-height: 15px;
+    color: white;
+    margin-left: 108px;
+    text-decoration: none;
+    font-family: Lato;
+    align-items: flex-end;
+}
+
+.fa {
+    vertical-align: middle;
+}
+
+.navMenuButton .fa-chevron-down {
+    width: 8px;
+    /* height: 16px; */
+    font-size: 12px;
+    margin-left: 1em;
+    margin-right: 25pt;
+}
+
+.navButtonsWrap {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-items: flex-end
+}
+
+.navButton {
+    display: flex;
+    height: 30px;
+    margin-bottom: 12px;
+    width: 30px;
+    background: #2c3e50;
+    border-radius: 15px;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+}
+
+.navButton:first-of-type {
+    background: #1ABC9C;
+    margin-right: 10px;
+    margin-left: 29.3px;
+    border-color: white;
+    border-color: transparent;
+}
+
+.navButton i {
+    color: white
+}
+
+.navItem:hover {
+    color: #1ABC9C
+}
+
+

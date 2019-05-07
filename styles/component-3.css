@@ -1,0 +1,160 @@
+.productsWrap {
+    height: 784px;
+    padding-top: 92px;
+    background: #ecf0f1
+}
+
+.productsContainer,
+.productsHeader {
+    margin-left: 372px;
+    margin-right: 372px;
+}
+
+.productsHeader {
+    margin-bottom: 41px;
+    font-size: 36px;
+    color: #34495e;
+    line-height: 33px;
+    margin-bottom: 41px;
+    font-family: Lato;
+}
+
+.productsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product {
+    flex: 1;
+    margin-right: 30px;
+    height: 562px;
+    width: 270px;
+    border-radius: 10px;
+
+}
+
+.product:last-child {
+    margin-right: 0;
+}
+
+.productImage {
+    width: 270px;
+    height: 370px;
+    /* background: #1abc9c; */
+
+
+}
+
+.productDetails {
+    display: flex;
+    width: 270px;
+    height: 125px;
+    flex-direction: column;
+    padding-left: 21.1px;
+    padding-top: 13px;
+    border: 1px solid #e6e6e6;
+    /* border-bottom: 1px solid #e6e6e6 */
+
+
+}
+
+.productTitle {
+    font-family: "Lato";
+    font-size: 18px;
+    color: #2c3e50;
+    line-height: 33px;
+
+}
+
+.productRating {
+    height: 33px;
+    align-items: center;
+    display: flex;
+}
+
+.productRating i {
+    font-size: 15px
+}
+
+.productRating i.fas {
+    color: #1abc9c
+}
+
+.productPrice {
+    line-height: 33px;
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: bold;
+}
+
+
+.productRating i.far {
+    color: #a1b1bc
+}
+
+
+
+
+.productActionButtons {
+    display: flex;
+    width: 270px;
+    height: 73px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e6e6e6;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: none;
+
+
+}
+
+.productActionButtons div {
+    width: 105px;
+    height: 28px;
+    margin: 0 8px;
+    padding-top: 6px;
+    font-size: 13px;
+    font-family: Lato;
+    color: white;
+    justify-content: space-evenly;
+    border-radius: 3px;
+    display: flex;
+    background: #a1b1bc
+}
+
+/* .productActionButtons div:nth-child(1) i{
+    display:unset;
+    margin-left: 10px;
+    margin-right: 8px;
+} */
+
+
+
+
+
+.selected .productDetails,
+.selected .productActionButtons {
+    background: #2c3e50;
+    margin-bottom: -1px;
+    border-bottom-width: 2px;
+}
+
+.selected .productTitle,
+.selected .productPrice {
+    color: white;
+}
+
+.selected .productActionButtons {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px
+}
+
+.selected .productActionButtons div:nth-child(2) {
+    background: transparent;
+    border: 1px solid white;
+}
+
+.selected .productActionButtons div:nth-child(1) {
+    background: #1ABC9C;
+}
