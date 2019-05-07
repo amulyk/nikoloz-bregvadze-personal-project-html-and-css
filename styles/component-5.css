@@ -91,7 +91,8 @@
     
 }
 .newsDescription{
-    width: 350px;
+    /* width: 350px; */
+    padding-right: 32px;
     height: 205px;
     font-family: Lato;
     font-size: 14px;
