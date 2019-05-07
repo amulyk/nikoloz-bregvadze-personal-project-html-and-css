@@ -1,0 +1,103 @@
+.laptopContainer {
+    height: 680px;
+    background: black;
+    padding: 0 200px;
+}
+
+#leftButton,
+#rightButton {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 312px;
+    float: left;
+    background: #1a1c27;
+    border: none;
+}
+
+#leftButton:hover,
+#rightButton:hover {
+    background: transparent;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+#leftButton i,
+#rightButton i {
+    color: white;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+#rightButton {
+    float: right;
+}
+
+.laptopInfo {
+    padding: 0 95px;
+    padding-right: 96px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 190px;
+    width: 612.7px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.laptopHeader {
+    margin-top: 117px;
+    text-align: center;
+    color: white;
+    font-family: Lato;
+    line-height: 20px;
+    font-size: 30px;
+    align-items: center;
+
+}
+
+.laptopDescription {
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: -32px;
+    padding-top: 12px;
+    width: 115%;
+    text-align: center;
+}
+
+.laptopButtons {
+    display: flex;
+    justify-content: center
+}
+
+.laptopButtons div {
+    height: 45px;
+    width: 170px;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+    justify-content: center;
+
+}
+
+.laptopButtons div:first-child {
+    border: 1px solid white;
+}
+
+.laptopButtons div:last-child {
+    background: #21c2f8
+}
+.laptop{
+    height: 252px;
+    width: 1184px;
+    margin: auto;
+    margin-top: 135px;
+}
