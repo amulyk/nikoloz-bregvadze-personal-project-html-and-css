@@ -19,6 +19,30 @@
     font-family: Lato;
 }
 
+.productsPageToggle{
+    border: 1px solid #cdd9e1;
+    border-radius: 10px;
+    margin-right: 12px;
+    height: 38px;
+    width: 38px;
+    margin-right: 12px;
+    display: flex;
+    float:right;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.productsHeader .productsPageToggle:first-child{
+    margin-right: 0;
+}
+.productsPageToggle i {
+    font-size:24px;
+    color: #a1b1bc;
+    line-height:24px;
+    
+}
+
 .productsContainer {
     display: flex;
     justify-content: space-between;
