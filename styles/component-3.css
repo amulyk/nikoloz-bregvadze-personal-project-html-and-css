@@ -33,6 +33,7 @@
     
 }
 
+
 .productsHeader .productsPageToggle:first-child{
     margin-right: 0;
 }
@@ -41,6 +42,13 @@
     color: #a1b1bc;
     line-height:24px;
     
+}
+
+.productsPageToggle:hover{
+    background: #2c3e50;
+}
+.productsPageToggle:hover i{
+    color: white;
 }
 
 .productsContainer {
