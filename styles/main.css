@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,9 +6,9 @@
 
 .container {
     width: 1920px;
-    height:900px;
+    height: 900px;
     margin: auto;
-    
+
 }
 
 /* Component 1 */
@@ -63,24 +62,26 @@ nav {
     line-height: 30.69px;
 }
 
-.navMenuWrap{
-    margin-left:16.7px;
-    display:flex;
-    
+.navMenuWrap {
+    margin-left: 16.7px;
+    display: flex;
+
     height: 76.71px;
-    
-    
-    width:864px;
+
+
+    width: 864px;
     align-items: flex-end;
 }
-.navMenuButtonsWrap{
-    display:flex;
-    flex:1;
-    height:20px;
+
+.navMenuButtonsWrap {
+    display: flex;
+    flex: 1;
+    height: 20px;
     flex-direction: row;
     justify-content: space-between;
 }
-.navMenuButton{
+
+.navMenuButton {
     width: 766px;
     font-size: 15px;
     line-height: 15px;
@@ -90,11 +91,12 @@ nav {
     font-family: Lato;
     align-items: flex-end;
 }
-.fa{
-   vertical-align: middle;
+
+.fa {
+    vertical-align: middle;
 }
 
-.navMenuButton .fa-chevron-down{
+.navMenuButton .fa-chevron-down {
     width: 8px;
     /* height: 16px; */
     font-size: 12px;
@@ -102,93 +104,101 @@ nav {
     margin-right: 25pt;
 }
 
-.navButtonsWrap{
+.navButtonsWrap {
     display: flex;
-    flex:1;
+    flex: 1;
     flex-direction: row;
     align-items: flex-end;
     justify-items: flex-end
 }
-.navButton{
-    display:flex;
+
+.navButton {
+    display: flex;
     height: 30px;
     margin-bottom: 12px;
-    width:30px;
+    width: 30px;
     background: #2c3e50;
     border-radius: 15px;
-    border:1px solid white; 
+    border: 1px solid white;
     align-items: center;
     justify-content: center;
 }
-.navButton:first-of-type{
+
+.navButton:first-of-type {
     background: #1ABC9C;
-    margin-right:10px;
+    margin-right: 10px;
     margin-left: 29.3px;
-    border-color:white;
+    border-color: white;
     border-color: transparent;
 }
 
-.navButton i{
-    color:white
+.navButton i {
+    color: white
 }
-.navItem:hover{
-    color:#1ABC9C
+
+.navItem:hover {
+    color: #1ABC9C
 }
 
 
 /*  Component 2 */
-.carouselWrap{
-    height:796px;
+.carouselWrap {
+    height: 796px;
     background: #2c3e50
 }
 
-.leftCarouselButton, .rightCarouselButton{
-    height:50px;
-    width:50px;
+.leftCarouselButton,
+.rightCarouselButton {
+    height: 50px;
+    width: 50px;
     border-radius: 5px;
     background: white;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin-top:320px;
-
-}
-.leftCarouselButton i, .rightCarouselButton i{
-   line-height:24px; 
-   height:24px;
-   width:100%;
-   text-align:center;
-   color: #2c3e50;
+    margin-top: 320px;
 
 }
 
-.leftCarouselButton{
+.leftCarouselButton i,
+.rightCarouselButton i {
+    line-height: 24px;
+    height: 24px;
+    width: 100%;
+    text-align: center;
+    color: #2c3e50;
+
+}
+
+.leftCarouselButton {
     margin-left: 68px;
     /* position: absolute; */
-    margin-right:218px
+    margin-right: 218px
 }
 
-.mockup{
-    display:flex;
-    height:742px;
-    width:531px;
-    margin-top:17px;
-    
+
+.mockup {
+    display: flex;
+    height: 742px;
+    width: 531px;
+    margin-top: 17px;
+
 }
 
-.carouselContent{
-    display:flex;
+.carouselContent {
+    display: flex;
 }
-.carouselInfo{
+
+.carouselInfo {
     height: 530.79px;
-    width:576.21px;
+    width: 576.21px;
     margin-top: 117px;
-    margin-left: 102.8px;
+    margin-left: 107px;
 }
 
 
-.rightCarouselButton{
-    margin-left:255px;
+.rightCarouselButton {
+    margin-left: 255px;
     border: 1px solid white;
     background: transparent;
 }
@@ -197,80 +207,89 @@ nav {
     color: white;
 }
 
-.carouselInfoHeader{
+.carouselInfoHeader {
     height: 178.67px;
-    width:570px;
+    width: 570px;
 }
 
-.productSlogan{
-    color:white;
-    font-family:"Lato";
-    line-height:60px;
+.productSlogan {
+    color: white;
+    font-family: "Lato";
+    line-height: 60px;
     font-size: 36px;
-    font-weight:300;
-    margin-top:-3px;
+    font-weight: 300;
+    margin-top: -7px;
     margin-bottom: -20px;
 }
+
+.productName {
+    margin-bottom: 23.5px
+}
+
+/* I couldn't click the fucking text so I exported it */
 .productName{
-    margin-bottom:23.5px
+    margin-left: -4px;
 }
 
 
-
-.carouselInfoText{
+.carouselInfoText {
     display: flex;
-    color:white;
+    width:570px;
+    color: white;
     font-size: 18px;
     font-family: "Lato";
     line-height: 30px;
     margin-bottom: 45px;
+    letter-spacing: -0.2pt;
 
 }
 
 .carouselInfoButtons div {
-    display:inline-block;
+    display: inline-block;
     width: 160px;
-    
+
     height: 50px;
-    margin-right:10px;
-    color:white;
+    margin-right: 8px;
+    color: white;
     font-size: 18px;
-    font-family:"Lato"
+    font-family: "Lato"
 }
 
 
-.carouselInfoButtons div:first-child{
+.carouselInfoButtons div:first-child {
     background: #1d2c38;
-    
-}
-.carouselInfoButtons div:last-child{
-    background:#1abc9c;
-    color:white;
+
 }
 
-.carouselInfoButtons div span{
+.carouselInfoButtons div:last-child {
+    background: #1abc9c;
+    color: white;
+}
+
+.carouselInfoButtons div span {
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.navigationDots{
-    margin:auto;
-    width:100px;
-    display:flex;
+.navigationDots {
+    margin: auto;
+    width: 100px;
+    display: flex;
     justify-content: space-between;
-    margin-top:-10px;
+    margin-top: -10px;
 }
 
-.dot{
-    height:15px;
-    width:15px;
+.dot {
+    height: 15px;
+    width: 15px;
     background: white;
     border-radius: 10px;
 }
-.dot.active{
-    border:1px white solid; 
+
+.dot.active {
+    border: 1px white solid;
     background: transparent;
     border-radius: 10px;
 }
