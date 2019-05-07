@@ -1,0 +1,126 @@
+.newsWrap{
+    height:1066px;
+    padding: 0 375px;
+    display:flex;
+    margin-top: 47px;
+    flex-direction: column
+}
+
+.topHalf{
+    height:600px;
+    margin-bottom:10px;
+    background: #cccccc;
+}
+.bottomHalf{
+    height:455px;
+    display:flex;
+    
+}
+
+.topHalfInfoWrap{
+    margin-left: 783.7px;
+    margin-top: 233.8px;
+    margin-right: 82.3px;
+    letter-spacing: 0.08pt;
+}
+.hero3Info{
+    font-family: Lato;
+    font-size: 18px;
+    color: #2c3e50;
+    line-height: 36px;
+    margin-bottom: 23.2px;
+    letter-spacing: 0.1pt;
+}
+
+.hero3Button{
+    font-family: Lato;
+    background: #2c3e50;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 36px;
+    color: white;
+    margin-left: 3px;
+}
+#hero3cam{
+    margin-bottom: 9px
+}
+
+.newsItem{
+    flex:1;
+    margin-right:11px;
+}
+
+.newsItem:last-child{
+    margin-right: 0;
+}
+
+.newsImage{
+    height: 200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: #cccccc;
+}
+.newsImage i {
+    font-size: 48px;
+    color:white;
+    border: 1px solid white;
+    width: 60px;
+    height: 60px;
+    display: none;
+    justify-content: center;
+    line-height: 60px;
+    border-radius: 50px;
+}
+
+.newsDescription, .newsButton{
+    padding-left: 29.5px
+}
+
+.newsTitle{
+    padding-top: 25.9px;
+    font-family: Lato;
+    font-size: 18px;
+    color: #2c3e50;
+    letter-spacing: initial;
+    margin-bottom: 8.5px;
+    
+}
+.newsDescription{
+    width: 350px;
+    height: 205px;
+    font-family: Lato;
+    font-size: 14px;
+    color: #a1b1bc;
+    line-height: 24px;
+}
+
+.newsButton{
+    height:50px;
+    color:white;
+    display:flex;
+    align-items: center;
+    font-family: Lato;
+    font-size: 15px;
+    background: #1abc9c;
+}
+
+.newsItem:hover .newsDescription, .newsItem:hover .newsTitle{
+    background: #2c3e50;
+
+}
+.newsItem:hover .newsButton{
+    background: #1e2a37
+}
+.newsItem:hover .newsTitle{
+    color: white
+}
+
+.newsItem:hover .newsImage, .newsItem:hover .newsImage i{
+    background: #1abc9c;
+    display: flex;
+}
