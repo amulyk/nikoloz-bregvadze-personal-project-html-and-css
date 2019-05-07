@@ -1,4 +1,6 @@
-
+*{
+    font-family: Lato
+}
 nav {
     /* width: 1170px; */
     height: 112px;

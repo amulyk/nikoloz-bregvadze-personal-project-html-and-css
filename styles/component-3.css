@@ -105,6 +105,7 @@
 }
 
 .productPrice {
+    display:flex;
     line-height: 33px;
     font-size: 20px;
     font-family: Lato;
@@ -157,28 +158,29 @@
 
 
 
-.selected .productDetails,
-.selected .productActionButtons {
+.productsWrap .product:hover .productDetails,
+.productsWrap .product:hover .productActionButtons {
     background: #2c3e50;
-    margin-bottom: -1px;
+    margin-bottom: -3px;
     border-bottom-width: 2px;
 }
 
-.selected .productTitle,
-.selected .productPrice {
+.productsWrap .product:hover .productTitle,
+.productsWrap .product:hover .productPrice {
     color: white;
 }
 
-.selected .productActionButtons {
+.productsWrap .product:hover .productActionButtons {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px
 }
 
-.selected .productActionButtons div:nth-child(2) {
+.productsWrap .product:hover .productActionButtons div:nth-child(2) {
     background: transparent;
     border: 1px solid white;
 }
 
-.selected .productActionButtons div:nth-child(1) {
+.productsWrap .product:hover .productActionButtons div:nth-child(1) {
     background: #1ABC9C;
 }
+

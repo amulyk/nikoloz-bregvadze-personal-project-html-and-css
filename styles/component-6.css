@@ -1,0 +1,142 @@
+.recentProductsWrap{
+    margin-top: 56px;
+}
+.recentProductsWrap .productsHeader{
+    margin-top: 94px;
+    margin-bottom: 47px;
+}
+.recentProductsWrap .productDetails{
+    padding-top: 7px
+}
+.recentProductsWrap .product{
+
+    height: 593px
+}
+.recentProductsWrap .product:hover{
+
+    height: 590px
+}
+
+.productsHeader{
+    margin-top: 31px;
+    margin-bottom: 41px;
+}
+
+.productHighlight{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color:white;
+    font-family: Lato;
+    padding-left: 19.2px;
+    padding-right: 21px;
+    justify-content: space-between;
+    border-top-left-radius: 10px;
+    border-top-right-radius :10px;
+}
+
+.productHighlight.featured{
+    background: #e46960;
+}
+
+.productHighlight.best{
+    background: #21c2f8
+}
+
+.salePrice{
+    background: #21c2f8;
+    color: white;
+    display: flex;
+    width: 90px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    margin-left: 19px;
+    border-radius: 6px;
+    margin-left: 13px;
+    margin-top: 0px;
+}
+
+
+
+
+.best.product:hover .productDetails,
+.best.product:hover .productActionButtons, .featured.product:hover .productDetails,
+.befeaturedst.product:hover .productActionButtons {
+    background: #2c3e50;
+    margin-bottom: -3px;
+    border-bottom-width: 2px;
+}
+
+.best.product:hover .productTitle,
+.best.product:hover .productPrice, .featured.product:hover .productTitle,
+.featured.product:hover .productPrice  {
+    color: white;
+}
+
+.best.product:hover .productActionButtons,.featured.product:hover .productActionButtons {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px
+}
+
+.best.product:hover .productActionButtons div:nth-child(2), .featured.product:hover .productActionButtons div:nth-child(2) {
+    background: transparent;
+    border: 1px solid white;
+}
+
+.best.product:hover .productActionButtons div:nth-child(1), .featured.product:hover .productActionButtons div:nth-child(1) {
+    background: #1ABC9C;
+}
+
+.salePrice::after{
+    content:'+';
+    width:34px;
+    height:30px;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    color:white;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: #2C3E50
+    
+}
+
+
+
+.salePrice:hover::after{
+    padding-left: 6.5px;
+    padding-right: 6.5px;
+    content: '+';
+    width: 27px;
+    height: 30px;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    color: white;
+    display: block;
+    text-align: center;
+    align-items: center;
+    background: #2C3E50;
+
+}
+
+.salePrice:hover {
+    width: 100px;
+        width: 122px;
+        background: #21c2f8;
+        padding-left: 8px;
+        color: white;
+        display: flex;
+        height: 30px;
+        align-items: center;
+        justify-content: start;
+        color: white;
+        font-size: 20px;
+        margin-left: 19px;
+        border-radius: 6px;
+        margin-left: 13px;
+        margin-top: 0px;
+}
+
