@@ -78,6 +78,7 @@
 }
 
 .carouselInfoHeader {
+    margin-bottom: 7px;
     height: 178.67px;
     width: 570px;
 }
@@ -110,8 +111,7 @@
     font-family: "Lato";
     line-height: 30px;
     margin-bottom: 45px;
-    letter-spacing: -0.2pt;
-
+    letter-spacing: -0.15pt;
 }
 
 .carouselInfoButtons div {

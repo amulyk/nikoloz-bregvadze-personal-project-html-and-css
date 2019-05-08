@@ -6,8 +6,9 @@
 
 .productsContainer,
 .productsHeader {
-    margin-left: 372px;
+    margin-left: 375px;
     margin-right: 372px;
+    margin-top: 4px;
 }
 
 .productsHeader {
@@ -54,6 +55,7 @@
 .productsContainer {
     display: flex;
     justify-content: space-between;
+    margin-top: 48px;
 }
 
 .product {
@@ -83,11 +85,9 @@
     height: 125px;
     flex-direction: column;
     padding-left: 21.1px;
-    padding-top: 13px;
+    padding-top: 8px;
     border: 1px solid #e6e6e6;
-    /* border-bottom: 1px solid #e6e6e6 */
-
-
+    /* border-bottom: 1px solid #e6e6e6; */
 }
 
 .productTitle {
@@ -105,7 +105,7 @@
 }
 
 .productRating i {
-    font-size: 15px
+    font-size: 12px
 }
 
 .productRating i.fas {
@@ -138,9 +138,12 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top: none;
+    margin-top: -5px;
+    margin-left: -4px;
 
 
 }
+
 
 .productActionButtons div {
     width: 105px;

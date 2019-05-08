@@ -1,5 +1,5 @@
 .recentProductsWrap{
-    margin-top: 56px;
+    margin-top: 97px;
 }
 .recentProductsWrap .productsHeader{
     margin-top: 94px;
@@ -17,9 +17,17 @@
     height: 590px
 }
 
-.productsHeader{
+.recentProductsWrap .productsHeader{
     margin-top: 31px;
     margin-bottom: 41px;
+}
+
+.recentProductsWrap .productActionButtons{
+    margin-top: -6px;
+}
+
+.recentProductsWrap .productsContainer:last-child{
+    margin-top: 0px;
 }
 
 .productHighlight{
