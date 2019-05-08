@@ -1,10 +1,17 @@
 *{
     font-family: Lato
 }
+* , *:before, *:after{ 
+    box-sizing:border-box; 
+    -moz-box-sizing:border-box; 
+    -webkit-box-sizing:border-box; 
+    -ms-box-sizing:border-box;
+  }
+
 nav {
     /* width: 1170px; */
     height: 112px;
-    width:1920px;
+    width:100%;/* a*/;
     margin: auto;
 }
 

@@ -1,7 +1,7 @@
 .productsWrap {
     height: 784px;
     padding-top: 92px;
-    width:1920px;
+    width:100%;/* a*/;
     margin: auto;
     margin-bottom: 157px;
 }

@@ -7,7 +7,7 @@
     align-content: row;
     align-items: center;
     justify-content: space-between;
-    width:1920px;
+    width:100%;/* a*/;
     margin: auto;
     margin-bottom: 49px;
     /* padding-left: 389px; */

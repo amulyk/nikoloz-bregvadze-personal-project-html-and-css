@@ -1,7 +1,7 @@
 
 .blogWrap{
     margin-top: 68px;
-    width:1920px;
+    width:100%;/* a*/;
     margin: auto;
 }
 .blogWrap{
@@ -19,12 +19,17 @@
     margin-left: -2px;
     margin-right: 0;
     margin-top: 33px;
+    margin:auto;
 }
 
 .blogContainer{
     display: flex;
     flex-direction: row;
+    margin:auto;
 }
+
+
+
 
 .blogItem{
     background: white;

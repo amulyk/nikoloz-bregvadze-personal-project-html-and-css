@@ -1,6 +1,6 @@
 .recentProductsWrap{
     margin-top: 97px;
-    width:1920px;
+    width:100%;/* a*/;
     margin: auto;
     margin-bottom: 129px;
 }

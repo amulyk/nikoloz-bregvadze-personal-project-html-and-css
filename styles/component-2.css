@@ -2,7 +2,7 @@
 .carouselWrap {
     height: 791px;
 
-    width:1920px;
+    width:100%;/* a*/;/*  */
     margin: auto;
 }
 
@@ -107,7 +107,29 @@
     margin-bottom: 23.5px
 }
 
-/* I couldn't click the fucking text so I exported it */
+.productName span{
+    color: white;
+    font-size: 87px;
+    position: relative;
+    top: 12px;
+    left: -1px;
+    font-weight: 300;
+    letter-spacing: 1.4pt;
+}
+
+.productName span:last-child{
+    font-size: 58px;
+    position: relative;
+    left: 13px;
+    top: 1px;
+    border: solid white 1px;
+    border-radius: 10px;
+    padding: 0px 15px;
+    height: 17px;
+    min-height: fit-content;
+    padding-top: -20px;
+}
+
 .productName {
     margin-left: -4px;
 }
