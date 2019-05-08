@@ -3,7 +3,11 @@
     padding: 0 375px;
     display:flex;
     margin-top: 47px;
-    flex-direction: column
+    flex-direction: column;
+    width:1920px;
+    margin: auto;
+    margin-bottom: 95px;
+
 }
 
 .topHalf{

@@ -1,7 +1,9 @@
 .productsWrap {
     height: 784px;
     padding-top: 92px;
-    background: #ecf0f1
+    width:1920px;
+    margin: auto;
+    margin-bottom: 157px;
 }
 
 .productsContainer,
@@ -31,7 +33,7 @@
     float:right;
     align-items: center;
     justify-content: center;
-    
+    margin: 3px;
 }
 
 
@@ -157,7 +159,8 @@
     border-radius: 3px;
     display: flex;
     background: #a1b1bc;
-    margin-left: -4px;
+    /* margin-left: -4px; */
+    margin: 0 10px;
 }
 
 /* .productActionButtons div:nth-child(1) i{

@@ -7,6 +7,14 @@
     align-content: row;
     align-items: center;
     justify-content: space-between;
+    width:1920px;
+    margin: auto;
+    margin-bottom: 49px;
+    /* padding-left: 389px; */
+    
+
+    
+
 }
 
 .shoppingCart{
@@ -18,7 +26,10 @@
     margin-right: 39.1px;
     display: flex;
     justify-content:center;
-    align-items:center
+    align-items:center;
+    margin-left: 37px;
+    margin-right: 47.1px;
+
 }
 
 
@@ -75,6 +86,6 @@
     -webkit-box-shadow: 0px 3px 0px 0px rgba(44,62,80,1);
     -moz-box-shadow: 0px 3px 0px 0px rgba(44,62,80,1);
     box-shadow: 0px 3px 0px 0px rgba(44,62,80,1);
-    margin-right: 43px;
+    margin-right: 48px;
 
 }

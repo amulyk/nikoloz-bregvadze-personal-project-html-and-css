@@ -1,5 +1,8 @@
 .recentProductsWrap{
     margin-top: 97px;
+    width:1920px;
+    margin: auto;
+    margin-bottom: 129px;
 }
 .recentProductsWrap .productsHeader{
     margin-top: 94px;

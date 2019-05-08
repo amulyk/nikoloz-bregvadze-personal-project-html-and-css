@@ -7,3 +7,52 @@
 @import url('component-7.css');
 @import url('component-8.css');
 @import url('component-9.css');
+
+#fluid-1{
+    min-width: 1920px;
+    width: 100%;
+    background: #2c3e50;
+}
+#fluid-2{
+    min-width: 1920px;
+    width: 100%;
+    background: #2c3e50
+}
+#fluid-3{
+    min-width: 1920px;
+    width: 100%;
+    background: #ecf0f1;
+    background: #ecf0f1
+}
+#fluid-4{
+    min-width: 1920px;
+    width: 100%;
+    background: white;
+}
+#fluid-5{
+    min-width: 1920px;
+    width: 100%;
+    background: white;
+}
+#fluid-6{
+    min-width: 1920px;
+    width: 100%;
+    /* background: white;? */
+}
+#fluid-7{
+    min-width: 1920px;
+    width: 100%;
+    background: #ECF0F1;
+}
+#fluid-8{
+    min-width: 1920px;
+    width: 100%;
+    background: black;
+    margin-top: -69px;
+
+}
+#fluid-9{
+    min-width: 1920px;
+    width: 100%;
+    background: #ecf0f1;
+}

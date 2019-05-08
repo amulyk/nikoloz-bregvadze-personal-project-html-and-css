@@ -4,7 +4,8 @@
 nav {
     /* width: 1170px; */
     height: 112px;
-    background: #2c3e50
+    width:1920px;
+    margin: auto;
 }
 
 .navWrap {

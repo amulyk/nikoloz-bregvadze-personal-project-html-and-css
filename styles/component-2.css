@@ -1,7 +1,9 @@
 
 .carouselWrap {
-    height: 796px;
-    background: #2c3e50
+    height: 791px;
+
+    width:1920px;
+    margin: auto;
 }
 
 .leftCarouselButton,
@@ -30,9 +32,11 @@
 }
 
 .leftCarouselButton {
-    margin-left: 68px;
-    /* position: absolute; */
-    margin-right: 218px
+    left: 71px;
+    top: 111px;
+    position: absolute;
+    /* margin-right: 218px */
+    
 }
 
 .leftCarouselButton i,
@@ -43,6 +47,7 @@
 .mockup {
     display: flex;
     height: 742px;
+    margin-left:336px;
     width: 531px;
     margin-top: 17px;
 
@@ -57,11 +62,15 @@
     width: 576.21px;
     margin-top: 117px;
     margin-left: 107px;
+    margin-right: 305px;
 }
 
 
 .rightCarouselButton {
     margin-left: 255px;
+    position: absolute;
+    right: 71px;
+    top: 111px;
 }
 
 
@@ -78,7 +87,8 @@
 }
 
 .carouselInfoHeader {
-    margin-bottom: 7px;
+    margin-bottom: 3px;
+
     height: 178.67px;
     width: 570px;
 }
