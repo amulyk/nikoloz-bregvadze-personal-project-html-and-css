@@ -1,9 +1,10 @@
 .laptopContainer {
     height: 680px;
     
-    padding: 0 200px;
+    /* padding: 0 200px; */
     margin-top: -4px;
-    width:100%;/* a*/;
+  max-width: 1170px;/*a*/
+width:100%;
     margin: auto;
 
 }
@@ -47,8 +48,8 @@
 }
 
 .laptopInfo {
-    padding: 0 95px;
-    padding-right: 96px;
+     /* padding: 0 95px; */
+    /* padding-right: 96px; */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -60,30 +61,38 @@
 }
 
 .laptopHeader {
-    margin-top: 118px;
+
+    margin-top: 101px;
     text-align: center;
     color: white;
     font-family: Lato;
     line-height: 20px;
     font-size: 30px;
     align-items: center;
+    margin-bottom: 14px;
 
 }
 
 .laptopDescription {
+  
     font-size: 14px;
     line-height: 24px;
     color: white;
-    margin-bottom: 15px;
+    margin-bottom: 47px;
     margin-left: -32px;
-    padding-top: 12px;
-    width: 115%;
+    padding-top: -23px;
+    width: 79%;
     text-align: center;
+    margin: auto;
+    /* margin-bottom: 28px; */
 }
 
 .laptopButtons {
     display: flex;
-    justify-content: center
+    justify-content: center;
+    position: relative;
+    top: 17px;
+    left: -2px;
 }
 
 .laptopButtons div {
@@ -109,5 +118,7 @@
     height: 252px;
     width: 1184px;
     margin: auto;
-    margin-top: 135px;
+    position: relative;
+    top: 132px;
+    left: -6px;
 }

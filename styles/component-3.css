@@ -1,15 +1,16 @@
 .productsWrap {
     height: 784px;
     padding-top: 92px;
-    width:100%;/* a*/;
+  max-width: 1170px;/*a*/
+width:100%;
     margin: auto;
     margin-bottom: 157px;
 }
 
 .productsContainer,
 .productsHeader {
-    margin-left: 375px;
-    margin-right: 372px;
+    /* margin-left: 375px;
+    margin-right: 372px; */
     margin-top: 4px;
 }
 

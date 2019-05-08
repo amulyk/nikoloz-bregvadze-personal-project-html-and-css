@@ -1,7 +1,8 @@
 
 .blogWrap{
     margin-top: 68px;
-    width:100%;/* a*/;
+  max-width: 1170px;/*a*/
+width:100%;
     margin: auto;
 }
 .blogWrap{
@@ -9,23 +10,35 @@
     height: 695px;
     display: flex;
     flex-direction: column;
-    padding-left: 375px;
+    /* padding-left: 375px;
     
-    padding-right: 375px;
+    padding-right: 375px; */
 }
 
 .blogWrap .productsHeader{
-    margin-bottom: 34px;
+    margin-bottom: 9px;
     margin-left: -2px;
     margin-right: 0;
     margin-top: 33px;
-    margin:auto;
+    margin-bottom: 9px;
+    margin-left: -2px;
+    margin-right: 0;
+    margin-top: 33px;
+    position: relative;
+    left: 0px;
+    top: 5px;
+
 }
 
 .blogContainer{
     display: flex;
     flex-direction: row;
     margin:auto;
+}
+
+.blogContainer:last-child{
+    position: relative;
+    top: -61px;
 }
 
 

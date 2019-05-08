@@ -2,7 +2,8 @@
 .carouselWrap {
     height: 791px;
 
-    width:100%;/* a*/;/*  */
+  max-width: 1170px;/*a*/
+width:100%;/*  */
     margin: auto;
 }
 
@@ -47,9 +48,11 @@
 .mockup {
     display: flex;
     height: 742px;
-    margin-left:336px;
+    /* margin-left: 336px; */
     width: 531px;
+    position: relative;
     margin-top: 17px;
+    left: -38px;
 
 }
 
@@ -60,9 +63,13 @@
 .carouselInfo {
     height: 530.79px;
     width: 576.21px;
-    margin-top: 117px;
-    margin-left: 107px;
-    margin-right: 305px;
+    /* margin-top: 118px; */
+    position: relative;
+    /* margin-left: 68px; */
+    /* margin-right: 305px; */
+    top: 118px;
+    right: 305px;
+    left: 68px;
 }
 
 

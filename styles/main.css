@@ -22,7 +22,10 @@
     
     width: 100%;
     background: #ecf0f1;
-    background: #ecf0f1
+    position: relative;
+    top: 3px;
+    left: -2px;
+
 }
 #fluid-4{
     
@@ -48,7 +51,8 @@
     
     width: 100%;
     background: black;
-    margin-top: -69px;
+    position: relative;
+    top: -60px;
 
 }
 #fluid-9{
