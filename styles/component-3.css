@@ -139,7 +139,7 @@
     border-bottom-right-radius: 10px;
     border-top: none;
     margin-top: -5px;
-    margin-left: -4px;
+    
 
 
 }
@@ -156,7 +156,8 @@
     justify-content: space-evenly;
     border-radius: 3px;
     display: flex;
-    background: #a1b1bc
+    background: #a1b1bc;
+    margin-left: -4px;
 }
 
 /* .productActionButtons div:nth-child(1) i{
